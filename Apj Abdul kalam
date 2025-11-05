@@ -1,60 +1,312 @@
-<doctype html>
-         <title> biography </title>
-       <body bgcolor="yellow">
-      <h1><strong>A. P. J. Abdul Kalam</strong></h1>
-     <h2> biography of A. P. J. Abdul Kalam </h2> 
-      <p>Avul Pakir Jainulabdeen Abdul Kalam  15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[2][3][4] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.[5]</p>
-     <ol>
-<li>Abdul Kalam in 2002 11th President of India</li>
-<li>In office 25 July 2002 – 25 July 2007</li>
-<li>Prime MinisterAtal Bihari VajpayeeManmohan Singh
-<li>Vice President Krishan Kant Bhairon Singh Shekhawat
-<li>Preceded by K. R. Narayanan
-<lli>Succeeded by Pratibha Patil
-<li>1st Principal Scientific Adviser to the Government of India
-<li>In office 1999–2002
-<li>PresidentK. R. Narayanan
-<li>Prime Minister Atal Bihari Vajpayee
-<li>Preceded by Position established
-<li>Succeeded by Rajagopala Chidambaram
-<h2>Personal details</h2>
-<img src="APJ.jpg"/> 
-   <ul>
-<li>Born Avul Pakir Jainulabdeen Abdul Kalam 15 October 1931
-Rameswaram, Madras Presidency, British India
-(present-day Tamil Nadu, India)
-<li>Died
-27 July 2015 (aged 83)
-Shillong, Meghalaya, India
-Resting place
-<p2>Dr. A. P. J. Abdul Kalam Desiya Ninaivagam, Pei Karumbu, Rameswaram, Tamil Nadu, India
-Nationality
-Indian
-Alma mater
-St. Joseph's College, Tiruchirappalli (BEng)
-Madras Institute of Technology (MEng)
-Profession
-Aerospace ScientistAuthor
-Awards
-Full list
-Notable work(s)
-Wings of Fire, India 2020, Ignited Minds, Indomitable Spirit, Transcendence: My Spiritual Experiences with Pramukh Swamiji
-Signature
-
-Website
-Official Website
-Scientific career
-Fields
-Aerospace Engineering
-Institutions
-Defence Research and Development Organisation
-Indian Space Research Organisation
-Kalam was elected as the 11th president of India in 2002 with the support of both the ruling Bharatiya Janata Party and the then-opposition Indian National Congress. Widely referred to as the "People's President",[6] he returned to his civilian life of education, writing and public service after a single term. He was a recipient of several prestigious awards, including the Bharat Ratna, India's highest civilian honour.
-
-While delivering a lecture at the Indian Institute of Management Shillong, Kalam collapsed and died from an apparent cardiac arrest on 27 July 2015, aged 83.[7] Thousands, including national-level dignitaries, attended the funeral ceremony held in his hometown of Rameswaram, where he was buried with full state honours.[8]
-</p2> 
-<a href="https://www.instagram.com/p/CJLIO2uHbXH/?utm_medium=copy_link">my insta </a>
-</body bgcolor="yellow">
-</doctype html>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. APJ Abdul Kalam - Biography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .hero-dates {
+            margin-top: 15px;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #2a5298;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-card h3 {
+            color: #2a5298;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #667eea;
+        }
+        
+        .timeline-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -33px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #764ba2;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
+        }
+        
+        .timeline-item h3 {
+            color: #2a5298;
+            margin-bottom: 5px;
+        }
+        
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .achievement-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+        }
+        
+        .books-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .books-list li {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+        }
+        
+        .books-list li::before {
+            content: '📚 ';
+            margin-right: 10px;
+        }
+        
+        .quote {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            font-style: italic;
+            font-size: 1.2em;
+            text-align: center;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        footer a:hover {
+            color: #764ba2;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dr. A. P. J. Abdul Kalam</h1>
+            <p>The Missile Man of India | People's President</p>
+            <div class="hero-dates">15 October 1931 – 27 July 2015</div>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>About</h2>
+                <p><strong>Avul Pakir Jainulabdeen Abdul Kalam</strong> was an Indian aerospace scientist who served as the <strong>11th President of India</strong> from 2002 to 2007. Born and raised in Rameswaram, Tamil Nadu, he studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO).</p>
+            </div>
+            
+            <div class="section">
+                <h2>Personal Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>📍 Birthplace</h3>
+                        <p>Rameswaram, Madras Presidency, British India (present-day Tamil Nadu, India)</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🎓 Education</h3>
+                        <p>St. Joseph's College, Tiruchirappalli (BEng)<br>
+                        Madras Institute of Technology (MEng)</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>💼 Profession</h3>
+                        <p>Aerospace Scientist, Author, Educator</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🏛️ Final Rest</h3>
+                        <p>Dr. A. P. J. Abdul Kalam Memorial, Pei Karumbu, Rameswaram, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quote">
+                "Dream is not that which you see while sleeping, it is something that does not let you sleep."
+            </div>
+            
+            <div class="section">
+                <h2>Career Highlights</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>1999-2002</h3>
+                        <p><strong>Principal Scientific Adviser to the Government of India</strong> - First person to hold this position</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>2002-2007</h3>
+                        <p><strong>11th President of India</strong> - Widely referred to as the "People's President"</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>DRDO & ISRO</h3>
+                        <p>Intimately involved in India's civilian space programme and military missile development efforts</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Pokhran-II (1998)</h3>
+                        <p>Played a pivotal organisational, technical, and political role in India's nuclear tests</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Notable Achievements</h2>
+                <div class="achievements">
+                    <span class="achievement-tag">🚀 Missile Man of India</span>
+                    <span class="achievement-tag">🏆 Bharat Ratna (1997)</span>
+                    <span class="achievement-tag">⚛️ Pokhran-II Nuclear Tests</span>
+                    <span class="achievement-tag">📡 Satellite Launch Vehicles</span>
+                    <span class="achievement-tag">💫 Ballistic Missile Development</span>
+                    <span class="achievement-tag">👨‍🔬 ISRO & DRDO Leadership</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Notable Works</h2>
+                <ul class="books-list">
+                    <li><strong>Wings of Fire</strong> - Autobiography</li>
+                    <li><strong>India 2020</strong> - A Vision for the New Millennium</li>
+                    <li><strong>Ignited Minds</strong> - Unleashing the Power Within India</li>
+                    <li><strong>Indomitable Spirit</strong></li>
+                    <li><strong>Transcendence: My Spiritual Experiences with Pramukh Swamiji</strong></li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Legacy</h2>
+                <p>On 27 July 2015, while delivering a lecture at the Indian Institute of Management Shillong, Dr. Kalam collapsed and died from an apparent cardiac arrest, aged 83. Thousands, including national-level dignitaries, attended the funeral ceremony held in his hometown of Rameswaram, where he was buried with full state honours.</p>
+                <p style="margin-top: 15px;">Dr. Kalam remains an inspiration to millions, particularly youth, for his dedication to science, education, and nation-building. His vision for India and his humble lifestyle continue to inspire generations.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 APJ Abdul Kalam Biography | Created with respect and admiration</p>
+        </footer>
+    </div>
+</body>
+</html>
