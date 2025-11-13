@@ -2,6 +2,5 @@
   "name": "restaurant/website",
   "description": "Restaurant website with reservation system",
   "require": {
-    "php": "^7.4|^8.0"
-  }
+    "php": ">=8.0"  }
 }
